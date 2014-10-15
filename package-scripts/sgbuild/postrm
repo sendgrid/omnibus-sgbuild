@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary sgbuild removal steps
+# after package is uninstalled.
+#
+
+echo "sgbuild has been uninstalled!"
+
+exit 0
