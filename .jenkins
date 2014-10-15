@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+
+echo '** executing .jenkins'
+
+echo '=> bundle install --without development'
+bundle install --without development
+
+echo '=> bundle exec omnibus build sgbuild'
+bundle exec omnibus build sgbuild
+

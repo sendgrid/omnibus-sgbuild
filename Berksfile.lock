@@ -1,5 +1,7 @@
 DEPENDENCIES
   apt (~> 2.0)
+  ci_dependencies
+    path: cookbooks/ci_dependencies
   omnibus
 
 GRAPH
@@ -9,6 +11,7 @@ GRAPH
   build-essential (2.1.0)
   chef-sugar (2.4.1)
   chef_handler (1.0.6)
+  ci_dependencies (0.0.0)
   homebrew (1.9.2)
   omnibus (2.4.2)
     7-zip (~> 1.0)

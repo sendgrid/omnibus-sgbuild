@@ -1,5 +1,5 @@
 name "sgbuild"
-default_version "0.1.2"
+default_version "0.2.0"
 
 dependency "ruby"
 dependency "rubygems"
