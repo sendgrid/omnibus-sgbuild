@@ -4,7 +4,7 @@ set -e
 echo '** executing .jenkins' as `whoami`
 
 echo '=> bundle install --without development'
-bundle install --without development
+bundle install --without development --path /tmp/.bundler
 
 echo '=> bundle exec omnibus build sgbuild'
 bundle exec omnibus build sgbuild

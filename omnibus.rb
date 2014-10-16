@@ -28,7 +28,7 @@
 
 # Disable git caching
 # ------------------------------
-# use_git_caching false
+use_git_caching false
 
 # Enable S3 asset caching
 # ------------------------------
