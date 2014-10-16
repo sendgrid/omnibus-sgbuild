@@ -1,15 +1,15 @@
 GIT
   remote: git://github.com/opscode/omnibus-software.git
-  revision: b325286346b50c268ce23931a23d0db3944babb8
+  revision: 8e6c54dfe1f14d33655a25e8adb6901064f90c1a
   branch: omnibus/3.2-stable
   specs:
     omnibus-software (3.0.0)
 
 GIT
   remote: git@github.com:sendgrid/sgbuild
-  revision: a06ed3ce1d7a58f8200193136774886d69ff4133
+  revision: db20315b6a0aa59d2d42c6f89f4e83f4a180388f
   specs:
-    sgbuild (0.1.2)
+    sgbuild (0.3.0)
 
 GEM
   remote: https://rubygems.org/
@@ -99,7 +99,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
     nio4r (1.0.1)
-    octokit (3.4.0)
+    octokit (3.4.1)
       sawyer (~> 0.5.3)
     ohai (7.4.0)
       ffi (~> 1.9)

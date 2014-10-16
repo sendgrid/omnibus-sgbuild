@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-echo '** executing .jenkins'
+echo '** executing .jenkins' as `whoami`
 
 echo '=> bundle install --without development'
 bundle install --without development

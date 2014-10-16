@@ -6,6 +6,11 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-bash "#{node['omnibus']['build_dir']}/.jenkins" do
+bash "run dot jenkins" do
   user node['omnibus']['build_user']
+  cwd node['omnibus']['build_dir']
+  code <<-EOH
+bash -le /home/vagrant/sgbuild/.jenkins
+EOH
 end
+
