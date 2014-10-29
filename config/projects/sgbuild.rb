@@ -10,7 +10,7 @@ build_version do
   # Output a SemVer compliant version string
   output_format :semver
 end
-build_iteration 1
+build_iteration ENV.fetch('BUILD_NUMBER', 1)
 
 # creates required build directories
 dependency 'preparation'
