@@ -46,3 +46,8 @@ use_git_caching false
 # ------------------------------
 # software_gems ['omnibus-software', 'my-company-software']
 # local_software_dirs ['/path/to/local/software']
+
+# Disable timestamp in package name
+# ------------------------------
+append_timestamp false
+
