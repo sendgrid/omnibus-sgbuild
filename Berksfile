@@ -1,4 +1,4 @@
-source 'http://chef.sjc1.sendgrid.net:26200'
+source :chef_server
 
 
 # The apt cookbook is required to bring the apt cache up-to-date on Ubuntu
